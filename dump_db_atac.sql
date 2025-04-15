@@ -286,6 +286,20 @@ COPY public.tratta_fermata (tratta_id, fermata_id, ordine) FROM stdin;
 15	6	2
 \.
 
+--
+-- TOC entry 3496 (class 0 OID 127174)
+-- Dependencies: 238
+-- Data for Name: viaggio; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.viaggio (id_viaggio, passeggero_id, biglietto_id,tratta_id,fermata_id,orario_salita,orario_discesa) FROM stdin;
+1	1	16	11	6	2025-04-15 08:15:00	2025-04-15 08:35:00
+2	2	17	12	7	2025-04-15 09:00:00	2025-04-15 09:30:00
+3	3	18	13	8	2025-04-15 10:05:00	2025-04-15 10:45:00
+4	4	19	14	9	2025-04-15 11:20:00	2025-04-15 11:45:00
+5	5	20	15	10	2025-04-15 12:00:00	2025-04-15 12:25:00
+\.
+
 
 --
 -- TOC entry 3520 (class 0 OID 0)
